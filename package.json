@@ -1,0 +1,23 @@
+{
+  "name": "reacttest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Thiago de Barros Lacerda",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^15.0.33",
+    "@types/react-dom": "^15.5.1",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.2.0",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "ts": "tsc --project src",
+    "bundle": "webpack --config config/webpack.config.js"
+  }
+}
